@@ -1,0 +1,200 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "tipodoc": "Cédula Ciudadanía",
+      "numdoc": "1234567890",
+      "nombre": "Mario Andrés",
+      "apellido": "Morelo Hernández",
+      "fnacimiento": "2005-06-25",
+      "email": "mario@gmail.com",
+      "password": "qwerty"
+    },
+    {
+      "id": 2,
+      "tipodoc": "Pasaporte",
+      "numdoc": "198765432",
+      "nombre": "Jhoan Fernando",
+      "apellido": "Fonseca Yotagri",
+      "fnacimiento": "2005-03-15",
+      "email": "jhoan@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "habitacion": [
+    {
+      "id": 101,
+      "nombrehab": "Suite Deluxe",
+      "capacidad": 3,
+      "camas": 2,
+      "caracteristicas": "2 camas 1 doble 1 sencilla, baño privado",
+      "valornoche": 125000
+    },
+    {
+      "id": 102,
+      "nombrehab": "Suite Basic",
+      "capacidad": 2,
+      "camas": 1,
+      "caracteristicas": "1 cama doble, baño privado",
+      "valornoche": 100000
+    }
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "fechareserva": "2023-07-07",
+      "fechaentrada": "2023-08-22",
+      "fechasalida": "2023-08-26",
+      "totalnoches": 5,
+      "valorreserva": 625000,
+      "userId": 1,
+      "habitacionId": 101
+    },
+    {
+      "id": 2,
+      "fechareserva": "2023-04-07",
+      "totalnoches": 2,
+      "fechaentrada": "2023-08-20",
+      "fechasalida": "2023-08-21",
+      "valorreserva": 300000,
+      "userId": 2,
+      "habitacionId": 102
+    }
+  ],
+  "tienda": [
+    {
+      "id": 1,
+      "tipodoc": "Nit",
+      "numnit": "1234567890",
+      "nombre": "Huellitas",
+      "email": "huellitas@gmail.com",
+      "password": "qwerty"
+    },
+    {
+      "id": 2,
+      "tipodoc": "Nit",
+      "numnit": "198765432",
+      "nombre": "patitas",
+      "email": "patitas@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "tipodoc": "Nit",
+      "numnit": "1981655432",
+      "nombre": "mordidas",
+      "email": "mordidas@gmail.com",
+      "password": "5412"
+    }
+  ],
+  "compra": [
+    {
+      "id": 1,
+      "productoId": 1,
+      "productosCategoria": "Snack",
+      "productosNombre": "Premio",
+      "cantidad": 4,
+      "tiendaId": 1,
+      "nombreTienda": "huellitas",
+      "ciudad": "Bogotá DC",
+      "productosPrecio": 600
+    },
+    {
+      "id": 2,
+      "productoId": 2,
+      "productosCategoria": "Juguetes",
+      "productosNombre": "Pelota",
+      "cantidad": 2,
+      "tiendaId": 2,
+      "nombreTienda": "patitas",
+      "ciudad": "Bogotá DC",
+      "productosPrecio": 5000
+    },
+    {
+      "id": 3,
+      "productoId": 3,
+      "productosCategoria": "Comida",
+      "productosNombre": "Dog Show",
+      "cantidad": 1,
+      "tiendaId": 3,
+      "nombreTienda": "mordidas",
+      "ciudad": "Bogotá DC",
+      "productosPrecio": 7500
+    },
+    {
+      "id": 4,
+      "productoId": 4,
+      "productosCategoria": "Comida",
+      "productosNombre": "Carne",
+      "cantidad": 4,
+      "tiendaId": 3,
+      "nombreTienda": "mordidas",
+      "ciudad": "Bogotá DC",
+      "productosPrecio": 8000
+    },
+    {
+      "id": 5,
+      "productoId": 4,
+      "productosCategoria": "Comida",
+      "productosNombre": "Pollo",
+      "cantidad": 4,
+      "tiendaId": 3,
+      "nombreTienda": "mordidas",
+      "ciudad": "Bogotá DC",
+      "productosPrecio": 8000
+    },
+    {
+      "id": 6,
+      "productoId": 5,
+      "productosCategoria": "Comida",
+      "productosNombre": "Dog Show",
+      "cantidad": 16,
+      "tiendaId": 1,
+      "nombreTienda": "huellitas",
+      "ciudad": "Bogotá DC",
+      "productosPrecio": 14000
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "tiendaId": 1,
+      "cantidad": 2,
+      "categoria": "Snack",
+      "nombre": "Premios",
+      "precio": 600
+    },
+    {
+      "id": 2,
+      "tiendaId": 2,
+      "cantidad": 2,
+      "categoria": "Juguete",
+      "nombre": "Pelota",
+      "precio": 5000
+    },
+    {
+      "id": 3,
+      "tiendaId": 2,
+      "cantidad": 3,
+      "categoria": "Comida",
+      "nombre": "Whiskas",
+      "precio": 7500
+    },
+    {
+      "id": 4,
+      "tiendaId": 3,
+      "cantidad": 4,
+      "categoria": "Comida",
+      "nombre": "Carne",
+      "precio": 8000
+    },
+    {
+      "id": 5,
+      "tiendaId": 1,
+      "cantidad": 16,
+      "categoria": "Comida",
+      "nombre": "Dog Show",
+      "precio": 14000
+    }
+  ]
+}
